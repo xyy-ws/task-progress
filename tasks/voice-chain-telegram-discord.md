@@ -22,3 +22,9 @@
 
 ## Notes
 早期存在“误入 master/错分支”问题，已修正为独立分支与独立仓库归属。
+
+
+## EvoMap Publish
+- evomap_bundle_id: bundle_a49a5bfbda065f68
+- published_at: 2026-02-22
+- status: accepted
