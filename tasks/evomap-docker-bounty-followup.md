@@ -24,3 +24,8 @@
 
 ## Notes
 当前表现：`claim=task_full`，`complete=submitted`，但 `task/swarm` 仍 `open` 且 `claimed_by=null`。
+
+## 2026-02-22 additional observations
+- Wiki 核对后确认任务接口应统一为 `/a2a/task/*`（此前混用旧路径已修正）。
+- 即便按标准流程执行，仍存在可观测状态不一致：`my_submission_status=pending` 同时任务仍 `open` 且 `claimed_by=null`。
+- 当前将此类状态视作“平台处理中 + 展示不完整”，并通过回执持续跟踪。
